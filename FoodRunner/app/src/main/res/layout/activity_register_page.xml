@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".RegisterPageActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgBackArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            ></ImageView>
+        <TextView
+            android:id="@+id/txtRegisterYourself"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Yourself"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+           android:layout_marginLeft="30dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+<EditText
+    android:id="@+id/etEnterYourName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="30dp"
+    android:layout_marginHorizontal="10dp"
+    android:hint="Enter Your Name(Min. 3 characters)"
+    android:drawableStart="@drawable/account_circle"
+     android:padding="10dp"
+    android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Email Address"
+        android:drawableStart="@drawable/attach_email"
+        android:padding="10dp"
+        android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Mobile Number(10 digits)"
+        android:drawableStart="@drawable/phone"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:id="@+id/etDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Delivery Address"
+        android:drawableStart="@drawable/add_location"
+        android:padding="10dp"
+        android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:id="@+id/etChoosePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Choose a password(Min. 4 characters)"
+        android:drawableStart="@drawable/lock_outline"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Confirm Password"
+        android:drawableStart="@drawable/lock_outline"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:drawablePadding="10dp"></EditText>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/sharp_rectangular_button"
+        android:textSize="18sp"
+      android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"></Button>
+</LinearLayout>

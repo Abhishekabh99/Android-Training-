@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="mobile_number_hint">Mobile Number(10 digits)</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="sign_up_text">Don\'t have an Account? Sign Up Now</string>
+</resources>
